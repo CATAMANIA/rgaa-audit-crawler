@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime files
+rapport.json
+rgaa-full-report.json
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# npm package-lock for different platforms
+package-lock.json
+
+# Puppeteer screenshots
+screenshots/
+*.png
+*.jpg
