@@ -1,0 +1,302 @@
+{
+  "color-contrast": {
+    "rgaa_items": ["RGAA-3-1", "RGAA-4-2"],
+    "explanation": "Contraste insuffisant entre texte et arrière-plan, doit respecter un ratio minimum de 4.5:1 (ou 3:1 pour texte large)."
+  },
+  "image-alt": {
+    "rgaa_items": ["RGAA-1-1"],
+    "explanation": "Les images porteuses d'information doivent avoir un texte alternatif pertinent."
+  },
+  "image-redundant-alt": {
+    "rgaa_items": ["RGAA-1-2"],
+    "explanation": "Les images purement décoratives ne doivent pas avoir d'alternative redondante."
+  },
+  "document-title": {
+    "rgaa_items": ["RGAA-1-3"],
+    "explanation": "Chaque page doit comporter un titre pertinent et unique."
+  },
+  "html-has-lang": {
+    "rgaa_items": ["RGAA-8-1"],
+    "explanation": "La langue principale du document doit être indiquée avec l'attribut lang."
+  },
+  "html-lang-valid": {
+    "rgaa_items": ["RGAA-8-2"],
+    "explanation": "Le code de langue doit être valide (ex: fr-FR)."
+  },
+  "link-name": {
+    "rgaa_items": ["RGAA-6-1", "RGAA-6-2"],
+    "explanation": "Chaque lien doit avoir un intitulé explicite et cohérent."
+  },
+  "link-in-text-block": {
+    "rgaa_items": ["RGAA-6-3"],
+    "explanation": "Les liens d'un même texte doivent être distinguables par leur contexte ou un intitulé explicite."
+  },
+  "aria-allowed-attr": {
+    "rgaa_items": ["RGAA-7-1"],
+    "explanation": "Utilisation correcte des attributs ARIA autorisés selon les rôles."
+  },
+  "aria-required-attr": {
+    "rgaa_items": ["RGAA-7-1"],
+    "explanation": "Les attributs ARIA requis pour un rôle doivent être présents."
+  },
+  "aria-required-children": {
+    "rgaa_items": ["RGAA-7-1"],
+    "explanation": "Les éléments enfants requis pour un rôle ARIA doivent être présents."
+  },
+  "aria-required-parent": {
+    "rgaa_items": ["RGAA-7-1"],
+    "explanation": "Un parent requis pour certains éléments ARIA doit exister."
+  },
+  "aria-roles": {
+    "rgaa_items": ["RGAA-7-1"],
+    "explanation": "Les rôles ARIA doivent être valides et pertinents."
+  },
+  "button-name": {
+    "rgaa_items": ["RGAA-11-1"],
+    "explanation": "Chaque bouton doit comporter un intitulé ou une étiquette accessible."
+  },
+  "form-field-multiple-labels": {
+    "rgaa_items": ["RGAA-12-2"],
+    "explanation": "Un champ de formulaire ne doit pas être associé à plusieurs étiquettes contradictoires."
+  },
+  "label": {
+    "rgaa_items": ["RGAA-12-1"],
+    "explanation": "Chaque champ de formulaire doit comporter une étiquette visible ou accessible via aria-label/aria-labelledby."
+  },
+  "input-button-name": {
+    "rgaa_items": ["RGAA-12-3"],
+    "explanation": "Les boutons de soumission doivent avoir un intitulé clair et explicite."
+  },
+  "focus-order": {
+    "rgaa_items": ["RGAA-12-8"],
+    "explanation": "L'ordre de tabulation doit suivre une logique cohérente pour la compréhension."
+  },
+  "skip-link": {
+    "rgaa_items": ["RGAA-12-6"],
+    "explanation": "Des liens d'évitement doivent permettre d'accéder directement au contenu principal."
+  },
+  "region": {
+    "rgaa_items": ["RGAA-12-6"],
+    "explanation": "Les régions de page doivent être identifiables par des repères ARIA (banner, main, navigation...)."
+  },
+  "heading-order": {
+    "rgaa_items": ["RGAA-9-1"],
+    "explanation": "La hiérarchie des titres doit être logique et cohérente."
+  },
+  "heading-level": {
+    "rgaa_items": ["RGAA-9-1"],
+    "explanation": "Les niveaux de titre ne doivent pas être sautés de manière incohérente."
+  },
+  "duplicate-id": {
+    "rgaa_items": ["RGAA-8-2"],
+    "explanation": "Les identifiants (id) dans le DOM doivent être uniques."
+  },
+  "frame-title": {
+    "rgaa_items": ["RGAA-13-1"],
+    "explanation": "Les frames et iframes doivent posséder un titre pertinent."
+  },
+  "frame-tested": {
+    "rgaa_items": ["RGAA-13-2"],
+    "explanation": "Les contenus dans les iframes doivent également être conformes RGAA."
+  },
+  "table-caption": {
+    "rgaa_items": ["RGAA-5-1"],
+    "explanation": "Les tableaux de données doivent comporter un titre ou une légende (caption)."
+  },
+  "th-has-data-cells": {
+    "rgaa_items": ["RGAA-5-2"],
+    "explanation": "Les entêtes de tableaux (th) doivent être associées correctement aux cellules (td)."
+  },
+  "td-headers-attr": {
+    "rgaa_items": ["RGAA-5-3"],
+    "explanation": "L'attribut headers doit être utilisé si les relations ne sont pas implicites."
+  },
+  "table-summary": {
+    "rgaa_items": ["RGAA-5-4"],
+    "explanation": "Les tableaux complexes doivent fournir un résumé via aria-describedby ou caption."
+  },
+  "list": {
+    "rgaa_items": ["RGAA-10-1"],
+    "explanation": "Les listes doivent utiliser les éléments sémantiques <ul>, <ol>, <li>."
+  },
+  "blink": {
+    "rgaa_items": ["RGAA-10-2"],
+    "explanation": "Éviter les contenus clignotants ou en mouvement intempestif."
+  },
+  "marquee": {
+    "rgaa_items": ["RGAA-10-2"],
+    "explanation": "Le texte défilant (marquee) doit être évité ou contrôlable."
+  },
+  "meta-refresh": {
+    "rgaa_items": ["RGAA-13-7"],
+    "explanation": "Les redirections automatiques via meta refresh doivent être évitées."
+  },
+  "auto-play-audio": {
+    "rgaa_items": ["RGAA-4-3"],
+    "explanation": "Le son qui démarre automatiquement doit être stoppable ou limité à 3 secondes."
+  },
+  "video-caption": {
+    "rgaa_items": ["RGAA-4-4"],
+    "explanation": "Les vidéos doivent comporter des sous-titres synchronisés pour les contenus audio."
+  },
+  "video-audio-description": {
+    "rgaa_items": ["RGAA-4-5"],
+    "explanation": "Les vidéos doivent comporter une audiodescription si nécessaire."
+  },
+  "keyboard": {
+    "rgaa_items": ["RGAA-12-7"],
+    "explanation": "Toutes les fonctionnalités doivent être accessibles au clavier."
+  },
+  "no-keyboard-trap": {
+    "rgaa_items": ["RGAA-12-9"],
+    "explanation": "L'utilisateur ne doit pas être bloqué dans une zone sans possibilité de sortie clavier."
+  },
+  "focus-visible": {
+    "rgaa_items": ["RGAA-12-10"],
+    "explanation": "Le focus clavier doit être visible pour tous les éléments interactifs."
+  },
+  "timing-adjustable": {
+    "rgaa_items": ["RGAA-13-8"],
+    "explanation": "Les délais imposés doivent pouvoir être ajustés ou désactivés."
+  },
+  "error-suggestion": {
+    "rgaa_items": ["RGAA-12-13"],
+    "explanation": "En cas d'erreur de saisie, une suggestion de correction doit être proposée."
+  },
+  "error-identification": {
+    "rgaa_items": ["RGAA-12-11"],
+    "explanation": "Les erreurs de saisie doivent être clairement indiquées à l'utilisateur."
+  },
+  "autocomplete": {
+    "rgaa_items": ["RGAA-12-14"],
+    "explanation": "Les champs doivent utiliser l'attribut autocomplete approprié."
+  },
+  "aria-expanded": {
+    "rgaa_items": ["RGAA-7-3"],
+    "explanation": "L'état des éléments repliables doit être indiqué via aria-expanded."
+  },
+  "aria-controls": {
+    "rgaa_items": ["RGAA-7-3"],
+    "explanation": "Les contrôles ARIA doivent indiquer les éléments qu'ils contrôlent."
+  },
+  "role-presentation": {
+    "rgaa_items": ["RGAA-7-2"],
+    "explanation": "Les éléments décoratifs doivent être correctement neutralisés avec role='presentation'."
+  },
+  "language-change": {
+    "rgaa_items": ["RGAA-8-3"],
+    "explanation": "Les changements de langue dans le contenu doivent être balisés."
+  },
+  "on-input": {
+    "rgaa_items": ["RGAA-11-2"],
+    "explanation": "Les changements de contexte ne doivent pas se produire automatiquement sur un événement input."
+  },
+  "target-blank": {
+    "rgaa_items": ["RGAA-13-10"],
+    "explanation": "Les ouvertures dans un nouvel onglet doivent être signalées à l'utilisateur."
+  },
+  "consistent-navigation": {
+    "rgaa_items": ["RGAA-13-5"],
+    "explanation": "Les mécanismes de navigation récurrents doivent conserver le même ordre et position."
+  },
+  "page-has-heading-one": {
+    "rgaa_items": ["RGAA-9-2"],
+    "explanation": "Chaque page doit comporter au moins un titre principal (h1)."
+  },
+  "tabindex": {
+    "rgaa_items": ["RGAA-12-8"],
+    "explanation": "L'usage excessif de tabindex positif doit être évité."
+  },
+  "link-purpose-in-context": {
+    "rgaa_items": ["RGAA-6-2"],
+    "explanation": "L'objet du lien doit être déterminable à partir du texte du lien ou de son contexte."
+  },
+  "resize-text": {
+    "rgaa_items": ["RGAA-4-1"],
+    "explanation": "Le texte doit être redimensionnable jusqu'à 200% sans perte de contenu."
+  },
+  "orientation": {
+    "rgaa_items": ["RGAA-4-8"],
+    "explanation": "Le contenu ne doit pas être limité à une orientation d'écran spécifique."
+  },
+  "reflow": {
+    "rgaa_items": ["RGAA-4-9"],
+    "explanation": "Le contenu doit rester lisible et fonctionnel sans défilement horizontal."
+  },
+  "status-messages": {
+    "rgaa_items": ["RGAA-13-12"],
+    "explanation": "Les messages de statut doivent être signalés aux technologies d'assistance."
+  },
+  "pause-stop-hide": {
+    "rgaa_items": ["RGAA-10-3"],
+    "explanation": "Les contenus en mouvement doivent pouvoir être mis en pause, arrêtés ou masqués."
+  },
+  "contrast-enhanced": {
+    "rgaa_items": ["RGAA-3-2"],
+    "explanation": "Le contraste des éléments d'interface (icônes, boutons, graphiques) doit être suffisant."
+  },
+  "text-spacing": {
+    "rgaa_items": ["RGAA-4-6"],
+    "explanation": "Les espacements de texte doivent pouvoir être ajustés sans perte de lisibilité."
+  },
+  "content-on-hover": {
+    "rgaa_items": ["RGAA-10-5"],
+    "explanation": "Les éléments affichés au survol doivent être accessibles au clavier et masquables facilement."
+  },
+  "pointer-gestures": {
+    "rgaa_items": ["RGAA-11-4"],
+    "explanation": "Les interactions tactiles complexes doivent avoir une alternative simple."
+  },
+  "target-size": {
+    "rgaa_items": ["RGAA-11-5"],
+    "explanation": "La taille des cibles tactiles doit être suffisante (≥ 24x24px)."
+  },
+  "name-role-value": {
+    "rgaa_items": ["RGAA-7-4"],
+    "explanation": "Les composants personnalisés doivent exposer un nom, un rôle et une valeur aux technologies d'assistance."
+  },
+  "headings-paragraph-order": {
+    "rgaa_items": ["RGAA-9-1"],
+    "explanation": "L'ordre des titres et paragraphes doit être logique."
+  },
+  "table-headers": {
+    "rgaa_items": ["RGAA-5-1", "RGAA-5-2"],
+    "explanation": "Les entêtes de tableaux doivent être correctement structurées avec th et scope."
+  },
+  "aria-describedby": {
+    "rgaa_items": ["RGAA-7-5"],
+    "explanation": "Les éléments doivent référencer correctement les descriptions ARIA pertinentes."
+  },
+  "form-error-suggestion": {
+    "rgaa_items": ["RGAA-12-13"],
+    "explanation": "Les champs en erreur doivent proposer une aide ou suggestion de correction."
+  },
+  "visible-focus": {
+    "rgaa_items": ["RGAA-12-10"],
+    "explanation": "Le focus doit être visible sur les éléments interactifs."
+  },
+  "link-underline": {
+    "rgaa_items": ["RGAA-6-4"],
+    "explanation": "Les liens doivent être clairement identifiables (soulignés ou contraste suffisant)."
+  },
+  "aria-live": {
+    "rgaa_items": ["RGAA-13-12"],
+    "explanation": "Les zones dynamiques doivent être annoncées par les lecteurs d'écran via aria-live."
+  },
+  "html-valid": {
+    "rgaa_items": ["RGAA-8-4"],
+    "explanation": "Le code HTML doit être valide pour éviter les problèmes d'accessibilité."
+  },
+  "role-none": {
+    "rgaa_items": ["RGAA-7-2"],
+    "explanation": "Les éléments purement décoratifs doivent être marqués avec role='none'."
+  },
+  "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name": {
+    "rgaa_items": ["RGAA-11-1"],
+    "explanation": "Les boutons doivent avoir un nom accessible via title, contenu textuel, aria-label ou aria-labelledby."
+  },
+  "meta-viewport": {
+    "rgaa_items": ["RGAA-4-7"],
+    "explanation": "La balise meta viewport ne doit pas désactiver le zoom et la mise à l'échelle du texte."
+  }
+}
