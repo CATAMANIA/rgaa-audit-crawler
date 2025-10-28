@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Audit RGAA",
+      "type": "shell",
+      "command": "node",
+      "args": ["crawler.js", "--url=${input:url}", "--depth=${input:depth}", "--out=rapport.json"],
+      "group": "build",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "url",
+      "type": "promptString",
+      "description": "URL du site à auditer"
+    },
+    {
+      "id": "depth",
+      "type": "promptString",
+      "description": "Profondeur de crawl",
+      "default": "1"
+    }
+  ]
+}
