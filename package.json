@@ -1,0 +1,32 @@
+{
+  "name": "rgaa-audit-crawler",
+  "version": "0.2.0",
+  "type": "module",
+  "description": "Outil d'audit RGAA automatisé utilisant axe-core et pa11y pour analyser l'accessibilité des sites web",
+  "main": "crawler.js",
+  "scripts": {
+    "audit": "node crawler.js",
+    "summary": "node summarize-report.js"
+  },
+  "keywords": [
+    "rgaa",
+    "accessibility",
+    "audit",
+    "axe-core",
+    "pa11y",
+    "wcag"
+  ],
+  "author": "CATAMANIA",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "axe-puppeteer": "^1.1.0",
+    "pa11y": "^6.0.0",
+    "minimist": "^1.2.8",
+    "xml2js": "^0.6.2",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
